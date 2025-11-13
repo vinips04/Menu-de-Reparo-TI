@@ -59,7 +59,7 @@ Capturas de tela disponíveis em `/docs/evidencias/`.
 5. **Evidências e capturas** estão disponíveis na pasta `/docs/evidencias/`, com exemplos de execução e resultados das funções.
 
 ## 👨‍💻 Autor
-**Vinicius Pereira**  
+👉  **Vinicius Pereira**  
 
 Analista de TI Júnior | Infraestrutura e Suporte Técnico  
 
