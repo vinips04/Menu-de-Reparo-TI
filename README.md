@@ -35,8 +35,8 @@ Capturas de tela disponíveis em `/docs/evidencias/`.
    git clone [https://github.com/vinips04/Menu-de-Ferramentas-para-Windows.git](https://github.com/vinips04/Menu-de-Ferramentas-para-Windows.git)
 
 2. **Acesse** a pasta do projeto:
-   cd Menu-de-Ferramentas-para-Windows-main
-   \Menu-de-Ferramentas-para-Windows-main\scripts
+   
+ `cd Menu-de-Ferramentas-para-Windows-main\scripts`
 
 4. **Execute o script como Administrador:**
 
