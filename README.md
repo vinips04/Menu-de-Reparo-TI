@@ -17,8 +17,6 @@ This toolkit centralizes common Windows diagnostic commands into a single intera
 * System health validation
 * Infrastructure support automation
 
----
-
 ## Features
 
 ### System Diagnostics
@@ -40,15 +38,11 @@ This toolkit centralizes common Windows diagnostic commands into a single intera
 * Driver backup
 * Custom command execution
 
----
-
 ## Technologies Used
 
 * Batch Script (.bat)
 * Windows Command Prompt (CMD)
 * Native Windows Administration Tools
-
----
 
 ## Project Structure
 
@@ -64,8 +58,6 @@ windows-diagnostic-toolkit/
 └── README.md
 ```
 
----
-
 ## Operational Scenario
 
 Example:
@@ -80,8 +72,6 @@ Troubleshooting workflow:
 4. Restart network services
 5. Execute Windows repair commands
 6. Validate system status after remediation
-
----
 
 ## How to Use
 
@@ -107,8 +97,6 @@ Important:
 
 Execute as Administrator to allow all repair commands to work correctly.
 
----
-
 ## Available Options
 
 ```
@@ -133,8 +121,6 @@ Execute as Administrator to allow all repair commands to work correctly.
 [10] Execute custom command
 ```
 
----
-
 ## Evidence
 
 Execution screenshots and validation results are available:
@@ -142,8 +128,6 @@ Execution screenshots and validation results are available:
 ```
 /docs/evidences/
 ```
-
----
 
 ## Future Improvements
 
@@ -154,21 +138,8 @@ Planned improvements:
 * Log export feature
 * Remote troubleshooting support
 
----
-
 ## Author
 
-Vinicius Pereira
-
-NOC Analyst | Infrastructure | Networks | Monitoring | Cloud & Cybersecurity
-
-LinkedIn:
-https://www.linkedin.com/in/viniciuspereira27/
-
-GitHub:
-https://github.com/vinips04
-
-## 👨‍💻 Autor
-👉 **Vinicius Pereira | Analista de TI**
+**Vinicius Pereira**
 
 [LinkedIn](https://www.linkedin.com/in/viniciuspereira27/) | [GitHub](https://github.com/vinips04)
