@@ -4,7 +4,8 @@ Windows automation toolkit developed with Batch Script to simplify system diagno
 
 This project centralizes common tasks performed by IT Support, NOC and Infrastructure teams during incident analysis, reducing manual effort and improving response time.
 
-<img width="379" height="302" alt="image" src="https://github.com/user-attachments/assets/ea1cf56c-3695-49c9-b420-f0dceb5bcbd3" />
+<img width="363" height="277" alt="image" src="https://github.com/user-attachments/assets/41b7adc9-af92-4653-8a6f-55bccc416a24" />
+" />
 
 ## Overview
 
