@@ -2,7 +2,7 @@
 
 Windows automation toolkit developed with Batch Script to simplify system diagnostics, troubleshooting and infrastructure support operations.
 
-The project simulates common tasks performed by IT Support, NOC and Infrastructure teams during incident analysis, reducing manual effort and improving response time.
+This project centralizes common tasks performed by IT Support, NOC and Infrastructure teams during incident analysis, reducing manual effort and improving response time.
 
 <img width="379" height="302" alt="image" src="https://github.com/user-attachments/assets/ea1cf56c-3695-49c9-b420-f0dceb5bcbd3" />
 
@@ -10,12 +10,14 @@ The project simulates common tasks performed by IT Support, NOC and Infrastructu
 
 In enterprise environments, analysts frequently execute repetitive troubleshooting procedures during incidents.
 
-This toolkit centralizes common Windows diagnostic commands into a single interactive menu, helping with:
+This toolkit provides a centralized command-line menu to execute Windows diagnostic and maintenance operations, helping with:
 
 * Faster incident response (MTTR reduction)
 * Standardized troubleshooting process
 * System health validation
 * Infrastructure support automation
+
+---
 
 ## Features
 
@@ -28,7 +30,7 @@ This toolkit centralizes common Windows diagnostic commands into a single intera
 
 ### Network Troubleshooting
 
-* Connectivity tests (PING)
+* Connectivity tests (Ping)
 * DNS cache cleanup
 * Network services restart
 
@@ -51,27 +53,25 @@ windows-diagnostic-toolkit/
 
 ├── scripts/
 │   └── windows-diagnostic-toolkit.bat
-│
 ├── docs/
 │   └── evidences/
-│
 └── README.md
 ```
 
 ## Operational Scenario
 
-Example:
+Incident example:
 
-A user reports slow system performance and network instability.
+A workstation presents slow performance and intermittent network connectivity.
 
 Troubleshooting workflow:
 
-1. Validate system information
-2. Check network connectivity
+1. Collect system information
+2. Validate network connectivity
 3. Clear DNS cache
 4. Restart network services
 5. Execute Windows repair commands
-6. Validate system status after remediation
+6. Confirm service restoration
 
 ## How to Use
 
@@ -89,43 +89,40 @@ cd windows-diagnostic-toolkit/scripts
 
 Run:
 
-```
+```cmd
 windows-diagnostic-toolkit.bat
 ```
 
-Important:
+Note:
 
-Execute as Administrator to allow all repair commands to work correctly.
+Run as Administrator to allow system repair operations.
 
 ## Available Options
 
-```
+```text
 [1] Check and repair disk (CHKDSK)
-
 [2] Repair system files (SFC)
-
 [3] Clean temporary files
-
 [4] Network connectivity test
-
 [5] Restart network services
-
 [6] Flush DNS cache
-
 [7] Backup installed drivers
-
 [8] Check Windows Updates
-
 [9] Display system information
-
 [10] Execute custom command
 ```
 
-## Evidence
+## Security Considerations
+
+* No credentials are stored in the script
+* Uses only native Windows commands
+* Administrative permissions are required only for system-level operations
+
+## Execution Evidence
 
 Execution screenshots and validation results are available:
 
-```
+```text
 /docs/evidences/
 ```
 
