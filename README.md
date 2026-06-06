@@ -6,8 +6,6 @@ The project simulates common tasks performed by IT Support, NOC and Infrastructu
 
 <img width="379" height="302" alt="image" src="https://github.com/user-attachments/assets/ea1cf56c-3695-49c9-b420-f0dceb5bcbd3" />
 
----
-
 ## Overview
 
 In enterprise environments, analysts frequently execute repetitive troubleshooting procedures during incidents.
