@@ -1,66 +1,176 @@
-# Menu de Ferramentas para Reparo e Diagnostico do Windows (.bat)
+# Windows Diagnostic Toolkit (.bat)
 
-Script `.bat` para automação de tarefas de **suporte técnico, diagnóstico e manutenção de sistemas Windows**.
+Windows automation toolkit developed with Batch Script to simplify system diagnostics, troubleshooting and infrastructure support operations.
+
+The project simulates common tasks performed by IT Support, NOC and Infrastructure teams during incident analysis, reducing manual effort and improving response time.
 
 <img width="379" height="302" alt="image" src="https://github.com/user-attachments/assets/ea1cf56c-3695-49c9-b420-f0dceb5bcbd3" />
 
-## Funcionalidades
-- Verificar e reparar disco (CHKDSK)
-- Reparo de arquivos de sistema (SFC)
-- Limpeza de arquivos temporários
-- Teste de conectividade (Ping)
-- Reinício de serviços de rede
-- Limpeza de cache DNS
-- Backup de drivers
-- Informações do sistema
-- Execução de comandos personalizados
+---
 
-## Stack Utilizadas
-Batch Script • Windows CMD • Ferramentas nativas do sistema
+## Overview
 
-## Objetivo
-Automatizar tarefas comuns de suporte técnico, reduzindo o tempo de diagnóstico e aumentando a eficiência no atendimento.
+In enterprise environments, analysts frequently execute repetitive troubleshooting procedures during incidents.
 
-## Estrutura
-`Menu-de-Ferramentas-para-Windows/`
+This toolkit centralizes common Windows diagnostic commands into a single interactive menu, helping with:
 
-`/docs/evidencias` `/scripts/menu_de_ferramentas.bat` 
+* Faster incident response (MTTR reduction)
+* Standardized troubleshooting process
+* System health validation
+* Infrastructure support automation
 
-## Evidências
-Capturas de tela disponíveis em `/docs/evidencias/`.
+---
 
-## Como utilizar o script
+## Features
 
-1. **Baixe** ou **clone** o repositório:
-   git clone [https://github.com/vinips04/Menu-de-Ferramentas-para-Windows.git](https://github.com/vinips04/Menu-de-Ferramentas-para-Windows.git)
+### System Diagnostics
 
-2. **Acesse** a pasta do projeto:
-   
- `cd Menu-de-Ferramentas-para-Windows\scripts`
+* Disk verification and repair (CHKDSK)
+* System file integrity validation (SFC)
+* Windows system information collection
+* Windows Update verification
 
-4. **Execute o script como Administrador:**
+### Network Troubleshooting
 
-* Clique com o botão direito em `menu_de_ferramentas.bat`
-* Selecione **“Executar como administrador”**
+* Connectivity tests (PING)
+* DNS cache cleanup
+* Network services restart
 
-4. **Escolha uma das opções do menu:**
+### Maintenance Tasks
 
-* [1] Verificar e reparar disco (CHKDSK)
-* [2] Reparar arquivos de sistema (SFC)
-* [3] Limpar arquivos temporários
-* [4] Testar conectividade de rede (Ping)
-* [5] Reiniciar serviços de rede
-* [6] Limpar cache DNS
-* [7] Fazer backup de drivers
-* [8] Verificar atualizações do Windows
-* [9] Exibir informações do sistema
-* [10] Executar comando personalizado
+* Temporary files cleanup
+* Driver backup
+* Custom command execution
 
-5. **Evidências e capturas** estão disponíveis na pasta `/docs/evidencias/`, com exemplos de execução e resultados das funções.
+---
+
+## Technologies Used
+
+* Batch Script (.bat)
+* Windows Command Prompt (CMD)
+* Native Windows Administration Tools
+
+---
+
+## Project Structure
+
+```
+windows-diagnostic-toolkit/
+
+├── scripts/
+│   └── windows-diagnostic-toolkit.bat
+│
+├── docs/
+│   └── evidences/
+│
+└── README.md
+```
+
+---
+
+## Operational Scenario
+
+Example:
+
+A user reports slow system performance and network instability.
+
+Troubleshooting workflow:
+
+1. Validate system information
+2. Check network connectivity
+3. Clear DNS cache
+4. Restart network services
+5. Execute Windows repair commands
+6. Validate system status after remediation
+
+---
+
+## How to Use
+
+Clone this repository:
+
+```bash
+git clone https://github.com/vinips04/windows-diagnostic-toolkit.git
+```
+
+Access the project:
+
+```bash
+cd windows-diagnostic-toolkit/scripts
+```
+
+Run:
+
+```
+windows-diagnostic-toolkit.bat
+```
+
+Important:
+
+Execute as Administrator to allow all repair commands to work correctly.
+
+---
+
+## Available Options
+
+```
+[1] Check and repair disk (CHKDSK)
+
+[2] Repair system files (SFC)
+
+[3] Clean temporary files
+
+[4] Network connectivity test
+
+[5] Restart network services
+
+[6] Flush DNS cache
+
+[7] Backup installed drivers
+
+[8] Check Windows Updates
+
+[9] Display system information
+
+[10] Execute custom command
+```
+
+---
+
+## Evidence
+
+Execution screenshots and validation results are available:
+
+```
+/docs/evidences/
+```
+
+---
+
+## Future Improvements
+
+Planned improvements:
+
+* PowerShell version
+* Automatic diagnostic report generation
+* Log export feature
+* Remote troubleshooting support
+
+---
+
+## Author
+
+Vinicius Pereira
+
+NOC Analyst | Infrastructure | Networks | Monitoring | Cloud & Cybersecurity
+
+LinkedIn:
+https://www.linkedin.com/in/viniciuspereira27/
+
+GitHub:
+https://github.com/vinips04
 
 ## 👨‍💻 Autor
-👉  **Vinicius Pereira**  
-
-Analista de TI Júnior | Infraestrutura e Suporte Técnico  
+👉 **Vinicius Pereira | Analista de TI**
 
 [LinkedIn](https://www.linkedin.com/in/viniciuspereira27/) | [GitHub](https://github.com/vinips04)
