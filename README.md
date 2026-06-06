@@ -51,10 +51,11 @@ This toolkit provides a centralized command-line menu to execute Windows diagnos
 ```
 windows-diagnostic-toolkit/
 
-├── scripts/
-│   └── windows-diagnostic-toolkit.bat
 ├── docs/
 │   └── evidences/
+├── scripts/
+│   └── windows-diagnostic-toolkit.bat
+├── LICENSE
 └── README.md
 ```
 
