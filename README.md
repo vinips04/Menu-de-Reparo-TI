@@ -1,6 +1,6 @@
 # Windows Diagnostic Toolkit
 
-Interactive Batch toolkit for Windows diagnostics, troubleshooting, maintenance and infrastructure support tasks.
+Interactive batch toolkit for windows diagnostics, troubleshooting, maintenance and infrastructure support tasks.
 
 The project centralizes common operational commands in a guided menu, validates administrator privileges when required and records each execution in a local log.
 
@@ -10,7 +10,7 @@ The project centralizes common operational commands in a guided menu, validates 
 
 - Online scan of the system drive with CHKDSK
 - Protected system file scan and repair with SFC
-- System information collection and TXT export
+- System information collection and txt export
 
 ### Network troubleshooting
 
@@ -29,7 +29,7 @@ The project centralizes common operational commands in a guided menu, validates 
 
 - Windows 10 or Windows 11
 - Windows Command Prompt
-- PowerShell, included with supported Windows versions, for locale-independent timestamps
+- PowerShell, included with supported w2indows versions, for locale-independent timestamps
 - Administrator privileges for CHKDSK, SFC, DNS cache cleanup and driver backup
 
 No third-party dependencies are required.
@@ -49,12 +49,12 @@ windows-diagnostic-toolkit/
 The toolkit creates the following directories during execution:
 
 ```text
-logs/                 Timestamped execution logs
-backups/drivers/      Exported third-party drivers
-reports/              System information reports
+logs/Timestamped execution logs
+backups/drivers/Exported third-party drivers
+reports/System information reports
 ```
 
-Runtime output is ignored by Git and remains on the local computer.
+Runtime output is ignored by git and remains on the local computer.
 
 ## How to Use
 
@@ -76,7 +76,7 @@ Run the toolkit:
 windows-diagnostic-toolkit.bat
 ```
 
-For access to every option, right-click the Batch file and select **Run as administrator**. The menu remains available without elevation, but protected operations are blocked individually.
+For access to every option, right-click the batch file and select **Run as administrator**. The menu remains available without elevation, but protected operations are blocked individually.
 
 ## Available Options
 
@@ -114,8 +114,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-**Vinicius Pereira**
+**- Vinicius Pereira**
 
-[LinkedIn](https://www.linkedin.com/in/viniciuspereira27/) | [GitHub](https://github.com/vinips04)
+<p>
+  <a href="https://www.linkedin.com/in/viniciuspereira27/"><img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/vinips04"><img src="https://img.shields.io/badge/GITHUB-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-`vinips04` • *Every trace tells a story.*
+<p align="center">
+vinips04 • Every trace tells a story.
+</p>
