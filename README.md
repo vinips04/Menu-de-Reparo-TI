@@ -127,15 +127,6 @@ Execution screenshots and validation results are available:
 /docs/evidences/
 ```
 
-## Future Improvements
-
-Planned improvements:
-
-* PowerShell version
-* Automatic diagnostic report generation
-* Log export feature
-* Remote troubleshooting support
-
 ## Author
 
 **Vinicius Pereira**
